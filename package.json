@@ -1,0 +1,23 @@
+{
+  "name": "chapitre04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startDebugAll": "set DEBUG=express:* & node tp01.js",
+    "startDebugApp": "set DEBUG=express:application & node tp01.js",
+    "startDebugRouter": "set DEBUG=express:router & node tp01.js",
+    "tp07-dev": "set NODE_ENV=development & node tp07.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
